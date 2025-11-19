@@ -1,0 +1,712 @@
+[
+  {
+    "id": "xi0xw4umw4bmhyt8t4m",
+    "created_date": 1763121879670,
+    "updated_date": 1763241411767,
+    "connection_id": "3n2mk3ivptlmhxuf0pa",
+    "name": "DRE",
+    "source_type": "table",
+    "table_name": "public.dreger",
+    "sql_query": null,
+    "fields": [
+      {
+        "name": "id",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "NUFIN",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "NUNOTA",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "NUMNOTA",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "DTREF",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "MES",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "ANO",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODEMP",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODEMPMATRIZ",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODPARC",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODTIPOPER",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODNAT",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "DESCRNAT",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODCENCUS",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODPROJ",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "VALOR",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "ORIGEM",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODAGRUP",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "NOME_CLASSIFICADOR",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "ORDEMDRE",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODEMPVIRT",
+        "type": "string",
+        "aggregable": false
+      }
+    ],
+    "sample_data": [
+      {
+        "id": 1,
+        "NUFIN": 3570797,
+        "NUNOTA": null,
+        "NUMNOTA": "109088",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 13,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 42567,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12060600,
+        "DESCRNAT": "LANCHES / PADARIA",
+        "CODCENCUS": 505013,
+        "CODPROJ": 0,
+        "VALOR": "-389.42",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 570,
+        "NOME_CLASSIFICADOR": "DESPESAS GERAIS",
+        "ORDEMDRE": 160,
+        "CODEMPVIRT": 13
+      },
+      {
+        "id": 2,
+        "NUFIN": 3591657,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 14,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 119396,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020200,
+        "DESCRNAT": "ALUGUEL DE IMOVEIS PJ",
+        "CODCENCUS": 504014,
+        "CODPROJ": 0,
+        "VALOR": "-10000.00",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 14
+      },
+      {
+        "id": 3,
+        "NUFIN": 3378973,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 13,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 26136,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020700,
+        "DESCRNAT": "IPTU",
+        "CODCENCUS": 505013,
+        "CODPROJ": 0,
+        "VALOR": "-1185.20",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 13
+      },
+      {
+        "id": 4,
+        "NUFIN": 3543175,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 1,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 94518,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020600,
+        "DESCRNAT": "TELEFONE E INTERNET",
+        "CODCENCUS": 504001,
+        "CODPROJ": 0,
+        "VALOR": "-130.11",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 1
+      },
+      {
+        "id": 5,
+        "NUFIN": 3555614,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 15,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 8876,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020700,
+        "DESCRNAT": "IPTU",
+        "CODCENCUS": 505015,
+        "CODPROJ": 0,
+        "VALOR": "-1703.82",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 15
+      },
+      {
+        "id": 6,
+        "NUFIN": 3537082,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 20,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 77100,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12050900,
+        "DESCRNAT": "SEGURO DE VEICULOS",
+        "CODCENCUS": 502001,
+        "CODPROJ": 0,
+        "VALOR": "-582.53",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 560,
+        "NOME_CLASSIFICADOR": "DESPESAS COM TRANSPORTE",
+        "ORDEMDRE": 150,
+        "CODEMPVIRT": 20
+      },
+      {
+        "id": 7,
+        "NUFIN": 3585730,
+        "NUNOTA": 1002908,
+        "NUMNOTA": "14106",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 1,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 140453,
+        "CODTIPOPER": 1706,
+        "CODNAT": 12050400,
+        "DESCRNAT": "COMBUSTIVEL",
+        "CODCENCUS": 502001,
+        "CODPROJ": 0,
+        "VALOR": "-435.50",
+        "ORIGEM": "FIN_ESTOQUE",
+        "CODAGRUP": 560,
+        "NOME_CLASSIFICADOR": "DESPESAS COM TRANSPORTE",
+        "ORDEMDRE": 150,
+        "CODEMPVIRT": 1
+      },
+      {
+        "id": 8,
+        "NUFIN": 3498450,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 22,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 138761,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020100,
+        "DESCRNAT": "ALUGUEL DE IMOVEIS PF",
+        "CODCENCUS": 504022,
+        "CODPROJ": 0,
+        "VALOR": "-7040.71",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 22
+      },
+      {
+        "id": 9,
+        "NUFIN": 3580597,
+        "NUNOTA": 1001170,
+        "NUMNOTA": "6270",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 9,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 76883,
+        "CODTIPOPER": 1706,
+        "CODNAT": 12050400,
+        "DESCRNAT": "COMBUSTIVEL",
+        "CODCENCUS": 504009,
+        "CODPROJ": 0,
+        "VALOR": "-418.69",
+        "ORIGEM": "FIN_ESTOQUE",
+        "CODAGRUP": 560,
+        "NOME_CLASSIFICADOR": "DESPESAS COM TRANSPORTE",
+        "ORDEMDRE": 150,
+        "CODEMPVIRT": 9
+      },
+      {
+        "id": 10,
+        "NUFIN": 0,
+        "NUNOTA": 259953,
+        "NUMNOTA": "21060",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 1,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 0,
+        "CODTIPOPER": 0,
+        "CODNAT": 3070400,
+        "DESCRNAT": "Depreciações",
+        "CODCENCUS": 0,
+        "CODPROJ": 0,
+        "VALOR": "-204.17",
+        "ORIGEM": "PATRIMONIO",
+        "CODAGRUP": 350,
+        "NOME_CLASSIFICADOR": "CUSTOS INDIRETOS",
+        "ORDEMDRE": 80,
+        "CODEMPVIRT": 1
+      }
+    ],
+    "row_count": 44856,
+    "last_validated": "2025-11-14T12:04:39.664Z",
+    "field_aliases": {
+      "NOME_CLASSIFICADOR": "Classificador"
+    },
+    "calculated_fields": []
+  },
+  {
+    "id": "b8bbtbhm89mi35e1is",
+    "created_date": 1763384143924,
+    "updated_date": 1763384189329,
+    "connection_id": "3n2mk3ivptlmhxuf0pa",
+    "name": "DRE MENSAL",
+    "source_type": "table",
+    "table_name": "public.dreger",
+    "sql_query": null,
+    "fields": [
+      {
+        "name": "id",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "NUFIN",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "NUNOTA",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "NUMNOTA",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "DTREF",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "MES",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "ANO",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODEMP",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODEMPMATRIZ",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODPARC",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODTIPOPER",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODNAT",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "DESCRNAT",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODCENCUS",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODPROJ",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "VALOR",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "ORIGEM",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODAGRUP",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "NOME_CLASSIFICADOR",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "ORDEMDRE",
+        "type": "string",
+        "aggregable": false
+      },
+      {
+        "name": "CODEMPVIRT",
+        "type": "string",
+        "aggregable": false
+      }
+    ],
+    "sample_data": [
+      {
+        "id": 1,
+        "NUFIN": 3570797,
+        "NUNOTA": null,
+        "NUMNOTA": "109088",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 13,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 42567,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12060600,
+        "DESCRNAT": "LANCHES / PADARIA",
+        "CODCENCUS": 505013,
+        "CODPROJ": 0,
+        "VALOR": "-389.42",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 570,
+        "NOME_CLASSIFICADOR": "DESPESAS GERAIS",
+        "ORDEMDRE": 160,
+        "CODEMPVIRT": 13
+      },
+      {
+        "id": 2,
+        "NUFIN": 3591657,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 14,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 119396,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020200,
+        "DESCRNAT": "ALUGUEL DE IMOVEIS PJ",
+        "CODCENCUS": 504014,
+        "CODPROJ": 0,
+        "VALOR": "-10000.00",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 14
+      },
+      {
+        "id": 3,
+        "NUFIN": 3378973,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 13,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 26136,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020700,
+        "DESCRNAT": "IPTU",
+        "CODCENCUS": 505013,
+        "CODPROJ": 0,
+        "VALOR": "-1185.20",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 13
+      },
+      {
+        "id": 4,
+        "NUFIN": 3543175,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 1,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 94518,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020600,
+        "DESCRNAT": "TELEFONE E INTERNET",
+        "CODCENCUS": 504001,
+        "CODPROJ": 0,
+        "VALOR": "-130.11",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 1
+      },
+      {
+        "id": 5,
+        "NUFIN": 3555614,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 15,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 8876,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020700,
+        "DESCRNAT": "IPTU",
+        "CODCENCUS": 505015,
+        "CODPROJ": 0,
+        "VALOR": "-1703.82",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 15
+      },
+      {
+        "id": 6,
+        "NUFIN": 3537082,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 20,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 77100,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12050900,
+        "DESCRNAT": "SEGURO DE VEICULOS",
+        "CODCENCUS": 502001,
+        "CODPROJ": 0,
+        "VALOR": "-582.53",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 560,
+        "NOME_CLASSIFICADOR": "DESPESAS COM TRANSPORTE",
+        "ORDEMDRE": 150,
+        "CODEMPVIRT": 20
+      },
+      {
+        "id": 7,
+        "NUFIN": 3585730,
+        "NUNOTA": 1002908,
+        "NUMNOTA": "14106",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 1,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 140453,
+        "CODTIPOPER": 1706,
+        "CODNAT": 12050400,
+        "DESCRNAT": "COMBUSTIVEL",
+        "CODCENCUS": 502001,
+        "CODPROJ": 0,
+        "VALOR": "-435.50",
+        "ORIGEM": "FIN_ESTOQUE",
+        "CODAGRUP": 560,
+        "NOME_CLASSIFICADOR": "DESPESAS COM TRANSPORTE",
+        "ORDEMDRE": 150,
+        "CODEMPVIRT": 1
+      },
+      {
+        "id": 8,
+        "NUFIN": 3498450,
+        "NUNOTA": null,
+        "NUMNOTA": "2025",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 22,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 138761,
+        "CODTIPOPER": 1304,
+        "CODNAT": 12020100,
+        "DESCRNAT": "ALUGUEL DE IMOVEIS PF",
+        "CODCENCUS": 504022,
+        "CODPROJ": 0,
+        "VALOR": "-7040.71",
+        "ORIGEM": "FINANCEIRO",
+        "CODAGRUP": 520,
+        "NOME_CLASSIFICADOR": "DESPESAS ESTRUTURAIS",
+        "ORDEMDRE": 110,
+        "CODEMPVIRT": 22
+      },
+      {
+        "id": 9,
+        "NUFIN": 3580597,
+        "NUNOTA": 1001170,
+        "NUMNOTA": "6270",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 9,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 76883,
+        "CODTIPOPER": 1706,
+        "CODNAT": 12050400,
+        "DESCRNAT": "COMBUSTIVEL",
+        "CODCENCUS": 504009,
+        "CODPROJ": 0,
+        "VALOR": "-418.69",
+        "ORIGEM": "FIN_ESTOQUE",
+        "CODAGRUP": 560,
+        "NOME_CLASSIFICADOR": "DESPESAS COM TRANSPORTE",
+        "ORDEMDRE": 150,
+        "CODEMPVIRT": 9
+      },
+      {
+        "id": 10,
+        "NUFIN": 0,
+        "NUNOTA": 259953,
+        "NUMNOTA": "21060",
+        "DTREF": "2025-05-01T03:00:00.000Z",
+        "MES": "05",
+        "ANO": "2025",
+        "CODEMP": 1,
+        "CODEMPMATRIZ": 1,
+        "CODPARC": 0,
+        "CODTIPOPER": 0,
+        "CODNAT": 3070400,
+        "DESCRNAT": "Depreciações",
+        "CODCENCUS": 0,
+        "CODPROJ": 0,
+        "VALOR": "-204.17",
+        "ORIGEM": "PATRIMONIO",
+        "CODAGRUP": 350,
+        "NOME_CLASSIFICADOR": "CUSTOS INDIRETOS",
+        "ORDEMDRE": 80,
+        "CODEMPVIRT": 1
+      }
+    ],
+    "row_count": 44856,
+    "last_validated": "2025-11-17T12:55:43.918Z",
+    "field_aliases": {
+      "NOME_CLASSIFICADOR": "Classificador"
+    },
+    "calculated_fields": []
+  }
+]

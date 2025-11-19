@@ -1,0 +1,18 @@
+[
+  {
+    "id": "3n2mk3ivptlmhxuf0pa",
+    "created_date": 1763063382862,
+    "updated_date": 1763063382862,
+    "name": "Raphael",
+    "type": "postgresql",
+    "config": {
+      "host": "localhost",
+      "port": 5432,
+      "database": "arcway",
+      "username": "postgres",
+      "password": "op90OP()",
+      "ssl": false
+    },
+    "is_active": true
+  }
+]

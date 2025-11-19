@@ -1,0 +1,224 @@
+[
+  {
+    "id": "mc039df1vlemhyt889f",
+    "created_date": 1763121852627,
+    "updated_date": 1763241502974,
+    "name": "Matrix DRE",
+    "description": "",
+    "type": "pivot",
+    "datasource_id": "xi0xw4umw4bmhyt8t4m",
+    "config": {
+      "name": "Matrix DRE",
+      "datasource_id": "xi0xw4umw4bmhyt8t4m",
+      "rows": [
+        {
+          "name": "NOME_CLASSIFICADOR",
+          "type": "string",
+          "aggregable": false,
+          "displayName": "NOME_CLASSIFICADOR",
+          "isCalculated": false,
+          "hierarchical": false
+        }
+      ],
+      "columns": [],
+      "values": [
+        {
+          "name": "VALOR",
+          "type": "string",
+          "aggregable": false,
+          "displayName": "VALOR",
+          "isCalculated": false,
+          "aggregation": "sum",
+          "showPercentColumn": true,
+          "showComparison": false,
+          "decimals": 0,
+          "showTotal": true
+        }
+      ],
+      "filters": [],
+      "sortRules": [],
+      "formatRules": [],
+      "field_aliases": {
+        "NOME_CLASSIFICADOR": "Classificador"
+      },
+      "description": ""
+    }
+  },
+  {
+    "id": "ut85aloezomi0scrax",
+    "created_date": 1763241316664,
+    "updated_date": 1763241472769,
+    "name": "Card DRE",
+    "description": "",
+    "type": "kpi",
+    "datasource_id": "xi0xw4umw4bmhyt8t4m",
+    "config": {
+      "name": "Card DRE",
+      "datasource_id": "xi0xw4umw4bmhyt8t4m",
+      "title": "Vendas Totais",
+      "subtitle": "",
+      "valueField": "VALOR",
+      "aggregation": "sum",
+      "format": "currency",
+      "decimals": 0,
+      "comparisonType": "previous_period",
+      "periodType": "current_year",
+      "customMonthsBack": 1,
+      "targetValue": 150000,
+      "targetField": "",
+      "targetAggregation": "sum",
+      "useTargetField": false,
+      "showTarget": false,
+      "showComparison": true,
+      "showTrend": false,
+      "colorPositive": "#10b981",
+      "colorNegative": "#ef4444",
+      "colorNeutral": "#64748b",
+      "filters": [],
+      "description": ""
+    }
+  },
+  {
+    "id": "xzus7yxxh7mi35fy91",
+    "created_date": 1763384232997,
+    "updated_date": 1763384816872,
+    "name": "Matrix / Pivot",
+    "description": "",
+    "type": "pivot",
+    "datasource_id": "b8bbtbhm89mi35e1is",
+    "config": {
+      "name": "Matrix / Pivot",
+      "datasource_id": "b8bbtbhm89mi35e1is",
+      "rows": [
+        {
+          "name": "NOME_CLASSIFICADOR",
+          "type": "string",
+          "aggregable": false,
+          "displayName": "Classificador",
+          "isCalculated": false,
+          "hierarchical": false
+        }
+      ],
+      "columns": [
+        {
+          "name": "CODEMP",
+          "type": "string",
+          "aggregable": false,
+          "displayName": "CODEMP",
+          "isCalculated": false
+        }
+      ],
+      "values": [
+        {
+          "name": "VALOR",
+          "type": "string",
+          "aggregable": false,
+          "displayName": "VALOR",
+          "isCalculated": false,
+          "aggregation": "sum",
+          "showPercentColumn": false,
+          "showComparison": true,
+          "decimals": 0,
+          "showTotal": true,
+          "percentBaseField": "column"
+        }
+      ],
+      "filters": [
+        {
+          "id": "filter_1763384788106",
+          "field": "CODEMP",
+          "operator": "equals",
+          "value": "",
+          "value2": "",
+          "type": "string",
+          "isPlayground": true,
+          "enabled": true
+        }
+      ],
+      "sortRules": [
+        {
+          "target": "data",
+          "field": "ORDEMDRE",
+          "sortType": "asc",
+          "customOrder": ""
+        },
+        {
+          "target": "columns",
+          "field": "CODEMP",
+          "sortType": "asc",
+          "customOrder": ""
+        }
+      ],
+      "formatRules": [
+        {
+          "name": "Nova Regra",
+          "enabled": true,
+          "formatType": "background",
+          "applyToTarget": "rows",
+          "applyTo": "NOME_CLASSIFICADOR",
+          "scope": "row",
+          "conditionType": "contains",
+          "value1": "RECEITA OPERA",
+          "value2": "",
+          "color": "#b4fee5",
+          "minColor": "#ef4444",
+          "midColor": "#fbbf24",
+          "maxColor": "#10b981",
+          "colorScaleType": "3color",
+          "iconSet": "arrows",
+          "dataBarColor": "#3b82f6",
+          "showValue": true
+        }
+      ],
+      "field_aliases": {
+        "NOME_CLASSIFICADOR": "Classificador"
+      },
+      "description": ""
+    }
+  },
+  {
+    "id": "uzot3zww89omi35ohio",
+    "created_date": 1763384631216,
+    "updated_date": 1763384662954,
+    "name": "kpi",
+    "description": "",
+    "type": "kpi",
+    "datasource_id": "b8bbtbhm89mi35e1is",
+    "config": {
+      "name": "kpi",
+      "datasource_id": "b8bbtbhm89mi35e1is",
+      "title": "Vendas Totais",
+      "subtitle": "Mês Atual",
+      "valueField": "VALOR",
+      "aggregation": "sum",
+      "format": "currency",
+      "decimals": 0,
+      "comparisonType": "previous_period",
+      "periodType": "current_year",
+      "customMonthsBack": 1,
+      "targetValue": 150000,
+      "targetField": "",
+      "targetAggregation": "sum",
+      "useTargetField": false,
+      "showTarget": true,
+      "showComparison": true,
+      "showTrend": true,
+      "colorPositive": "#10b981",
+      "colorNegative": "#ef4444",
+      "colorNeutral": "#64748b",
+      "filters": [
+        {
+          "id": "filter_1763384646108",
+          "field": "NOME_CLASSIFICADOR",
+          "operator": "contains",
+          "value": "receita opera",
+          "value2": "",
+          "type": "string",
+          "isPlayground": false,
+          "enabled": true
+        }
+      ],
+      "description": ""
+    }
+  }
+]

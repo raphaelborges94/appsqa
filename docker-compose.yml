@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  sqa:
+    build: .
+    container_name: sqa
+    ports:
+      - "5173:5173" # sqabi-frontend
+      - "8080:8080" # sqahub-frontend
+      - "5174:5174" # sqabi-backend
+      - "3000:3000" # sqahub-backend
+    depends_on:
+      - postgres
+    environment:
+      - DATABASE_URL=postgres://user:password@postgres:5432/sqateste
+
+  postgres:
+    image: postgres:13
+    container_name: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: sqateste
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:

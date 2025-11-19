@@ -1,0 +1,23 @@
+{
+  "name": "sqa-hub-backend",
+  "version": "1.0.0",
+  "description": "Backend do SQA HUB",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=../../.env.local server.js",
+    "start": "node --env-file=../../.env.local server.js",
+    "migrate": "node --env-file=../../.env.local migrate.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pg": "^8.11.3",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
+    "uuid": "^9.0.1",
+    "crypto": "^1.0.1"
+  }
+}
