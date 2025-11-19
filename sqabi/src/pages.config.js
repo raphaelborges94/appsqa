@@ -36,4 +36,8 @@ export const pagesConfig = {
     mainPage: "Dashboard",
     Pages: PAGES,
     Layout: Layout,
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 94368f86f636a9bf15111da8d02a21180b5e13b9
